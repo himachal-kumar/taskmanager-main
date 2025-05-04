@@ -15,53 +15,118 @@ In a dynamic work environment, effective task management is crucial for team suc
 ### **Background**:
 With the rise of remote work and dispersed teams, there is a growing need for tools that facilitate effective communication and task coordination. The Cloud-Based Task Manager addresses this need by leveraging modern web technologies to create an intuitive and responsive task management solution. The MERN stack ensures scalability, while the integration of Redux Toolkit, Headless UI, and Tailwind CSS enhances user experience and performance.
 
+steps:-
+# Task Manager Application
 
-### 
-## **Admin Features:**
-1. **User Management:**
-    - Create admin accounts.
-    - Add and manage team members.
+A full-stack task management application built with React, Node.js, and MongoDB.
 
-2. **Task Assignment:**
-    - Assign tasks to individual or multiple users.
-    - Update task details and status.
+## Prerequisites
 
-3. **Task Properties:**
-    - Label tasks as todo, in progress, or completed.
-    - Assign priority levels (high, medium, normal, low).
-    - Add and manage sub-tasks.
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- MongoDB (local or Atlas)
 
-4. **Asset Management:**
-    - Upload task assets, such as images.
+## Installation
 
-5. **User Account Control:**
-    - Disable or activate user accounts.
-    - Permanently delete or trash tasks.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd taskmanager-main
+```
 
+2. Install dependencies for both client and server:
+```bash
+# Install client dependencies
+cd client
+npm install
 
-## **User Features:**
-1. **Task Interaction:**
-    - Change task status (in progress or completed).
-    - View detailed task information.
+# Install server dependencies
+cd ../server
+npm install
+```
 
-2. **Communication:**
-    - Add comments or chat to task activities.
+## Running the Application
 
+### Start the Server
+1. Navigate to the server directory:
+```bash
+cd server
+```
 
-## **General Features:**
-1. **Authentication and Authorization:**
-    - User login with secure authentication.
-    - Role-based access control.
+2. Start the server:
+```bash
+npm start
+```
+The server will run on http://localhost:5000
 
-2. **Profile Management:**
-    - Update user profiles.
+### Start the Client
+1. Navigate to the client directory:
+```bash
+cd client
+```
 
-3. **Password Management:**
-    - Change passwords securely.
+2. Start the development server:
+```bash
+npm run dev
+```
+The client will run on http://localhost:3000
 
-4. **Dashboard:**
-    - Provide a summary of user activities.
-    - Filter tasks into todo, in progress, or completed.
+## Login Credentials
+
+### Admin Panel Access
+- Email: himachal123@gmail.com
+- Password: himachal1234
+
+### Regular User
+- You can register a new user through the application interface
+
+## Features
+
+- Task Management
+- User Management
+- Admin Dashboard
+- Real-time Notifications
+- Task Categories (Todo, In Progress, Completed)
+- User Roles (Admin, Regular User)
+
+## Technologies Used
+
+- Frontend:
+  - React
+  - Redux
+  - Tailwind CSS
+  - React Router
+  - Axios
+
+- Backend:
+  - Node.js
+  - Express
+  - MongoDB
+  - JWT Authentication
+
+## Project Structure
+
+```
+taskmanager-main/
+├── client/           # React frontend
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── redux/
+│   │   └── utils/
+│   └── package.json
+│
+└── server/           # Node.js backend
+    ├── controllers/
+    ├── models/
+    ├── routes/
+    └── package.json
+```
+
+## Support
+
+For any issues or questions, please contact the development team.
+
 
 
 
