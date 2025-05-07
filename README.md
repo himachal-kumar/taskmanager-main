@@ -16,7 +16,8 @@ In a dynamic work environment, effective task management is crucial for team suc
 With the rise of remote work and dispersed teams, there is a growing need for tools that facilitate effective communication and task coordination. The Cloud-Based Task Manager addresses this need by leveraging modern web technologies to create an intuitive and responsive task management solution. The MERN stack ensures scalability, while the integration of Redux Toolkit, Headless UI, and Tailwind CSS enhances user experience and performance.
 
 steps:-
-# Task Manager Application
+# Task Manager Application video :-
+https://github.com/user-attachments/assets/58180e82-8ce2-4455-b217-f181b7d40715
 
 A full-stack task management application built with React, Node.js, and MongoDB.
 
